@@ -1,4 +1,3 @@
-import org.scalajs.linker.interface.{ModuleInitializer, OutputPatterns}
 
 ThisBuild / scalaVersion := "2.12.10"
 ThisBuild / organization := "com.iamsmkr"
