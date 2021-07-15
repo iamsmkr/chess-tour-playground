@@ -1,6 +1,6 @@
 package com.iamsmkr.chesstour.heuristic
 
-import com.iamsmkr.chesstour.heuristic.ChessTour.Pos
+import com.iamsmkr.chesstour.heuristic.models.Pos
 import org.scalatest.matchers.should
 import org.scalatest.propspec.AnyPropSpec
 import org.scalatestplus.scalacheck.ScalaCheckPropertyChecks
