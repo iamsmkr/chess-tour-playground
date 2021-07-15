@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+}
+
+table {
+    border-spacing: 0;
+    border: 1px solid rgb(230, 229, 229);
+    margin: 20px 20px;
+}
+
+td {
+    text-align: center;
+}
+
+.black {
+    width: 40px;
+    height: 40px;
+    background: rgb(201, 201, 201);
+}
+
+.white {
+    width: 40px;
+    height: 40px;
+    background: white;
+}
+
+[data-row]:before {
+    content: attr(data-row);
+    position: absolute;
+    margin: 8px -20px;
+}
+
+[data-col]:before {
+    content: attr(data-col);
+    position: absolute;
+    margin: 40px -5px;
+}
