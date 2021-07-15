@@ -23,12 +23,14 @@ td {
     width: 40px;
     height: 40px;
     background: rgb(201, 201, 201);
+    position: relative;
 }
 
 .white {
     width: 40px;
     height: 40px;
     background: white;
+    position: relative;
 }
 
 [data-row]:before {
@@ -40,5 +42,8 @@ td {
 [data-col]:before {
     content: attr(data-col);
     position: absolute;
-    margin: 40px -5px;
+    bottom: -32px;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
