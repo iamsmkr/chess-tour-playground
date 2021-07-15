@@ -20,4 +20,4 @@ $ mv js/target/scala-2.12/chess-tour-playground-opt.js public
 ```
 
 ## Usage
-Open `index.html` in a browser of your choice to launch "Chess Tour Playground".
+Open `index.html` in a browser of your choice to launch **Chess Tour Playground**. You can also access already deployed version [here](https://iamsmkr.github.io/chess-tour-playground/).
