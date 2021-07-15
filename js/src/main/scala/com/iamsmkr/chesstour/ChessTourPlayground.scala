@@ -1,7 +1,7 @@
 package com.iamsmkr.chesstour
 
 import com.iamsmkr.chesstour.heuristic.ChessTour
-import com.iamsmkr.chesstour.heuristic.ChessTour.Pos
+import com.iamsmkr.chesstour.heuristic.models.Pos
 import upickle.default
 
 import scala.scalajs.js.annotation._
