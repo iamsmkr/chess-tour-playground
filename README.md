@@ -1,6 +1,9 @@
 # chess-tour-playground
 This is a scalajs based project that makes use of a shared library built in Scala which implements chess tour algorithm. This shared library is cross-compiled to both Scala and javascript so as to facilitate usage of the library in a front-end app.
 
+## Solution
+The solution is based on Warnsdorff Heuristic Algorithm implemented as tail recursive back-tracking. See a sample dry-run of a simplified problem statement [here](https://docs.google.com/spreadsheets/d/13-e_vpze8RIx9d_2ZaKqY4_NoKBgP1p4cKifGu-lvhg/edit?usp=sharing).
+
 ## Test
 The tests are written as property based test cases.
 ```
